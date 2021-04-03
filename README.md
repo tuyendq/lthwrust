@@ -5,6 +5,10 @@ The Rust Programming Language[https://doc.rust-lang.org/book/title-page.html]
 
 ## Hello World!
 
+## Primitive data types
+- char: 4 bytes
+- 
+
 ## Exercise x: Function
 
 ## Exercise x: Loop
@@ -14,6 +18,11 @@ The Rust Programming Language[https://doc.rust-lang.org/book/title-page.html]
 ### while loop
 
 ### for loop
+
+
+## Exercise x: Array
+- Same data type
+- Fixed length
 
 
 
