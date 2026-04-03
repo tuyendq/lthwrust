@@ -23,9 +23,17 @@ fn main() {
     // let s2 = s1.clone();
     // println!("s1: {}, s2: {}", s1, s2);
 
-    let s1 = String::from("Learn Rust is fun!");
-    print_string(&s1);
-    println!("s1 is: {}", s1);
+    // let s1 = String::from("Learn Rust is fun!");
+    // print_string(&s1);
+    // println!("s1 is: {}", s1);
+
+    // let mut s = String::from("hello");
+    // let r1 = &mut s;
+    // let r2 = &mut s;
+    // println!("{}, {}", r1, r2);
+
+
+    
     
 }
 
