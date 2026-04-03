@@ -52,6 +52,20 @@ fn main() {
     println!("{}", r1);
     let r2 = &mut s;
     println!("{}", r2);
+    // ===
+
+    // ===
+    // let mut s = String::from("hello");
+    // let r1 = &s;  // borrow to read (immutable borrow)
+    // let r2 = &s;  // borrow to read (immutable borrow)
+    // let r3 = &mut s;
+    // println!("{}, {}, {}", r1, r2, r3);  // Error: cannot borrow s as mutable because it is also borrowed as immutable
+    // ===
+
+    let s= String::from("hello world");
+    let hello = &s[0..5];
+    let world = &s[6..11];
+    println!("{} {}", hello, world);
 
 }
 
