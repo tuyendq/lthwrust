@@ -1,1 +1,1 @@
-/root/lthwrust/hello/target/debug/hello: /root/lthwrust/hello/src/main.rs
+D:\projects\lthwrust\hello\target\debug\hello.exe: D:\projects\lthwrust\hello\src\main.rs

@@ -1,6 +1,6 @@
 fn main() {
-    let x = 5;
+    let x: i32 = 5;  // immutable variable
     println!("Value of x is: {}", x);
-    x = 5;
+    x = 6;
     println!("Value of x is: {}", x);
 }
