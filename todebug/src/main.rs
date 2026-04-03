@@ -27,16 +27,34 @@ fn main() {
     // print_string(&s1);
     // println!("s1 is: {}", s1);
 
+    // ====
     // let mut s = String::from("hello");
     // let r1 = &mut s;
     // let r2 = &mut s;
     // println!("{}, {}", r1, r2);
+    // ===
 
+    // ===
+    // let mut s = String::from("hello");
+    // {
+    //     let r1 = &mut s;
+    //     r1.push_str(" world");
+    //     println!("{}", r1);
+    // }
+    // let r2 = &mut s;
+    // r2.push_str("!");
+    // println!("{}", r2);
+    // ===
 
-    
-    
+    // ===
+    let mut s = String::from("hello");
+    let r1 = &mut s;
+    println!("{}", r1);
+    let r2 = &mut s;
+    println!("{}", r2);
+
 }
 
-fn print_string(s: &String) {
-    println!("Reading: {}", s);
-}
+// fn print_string(s: &String) {
+//     println!("Reading: {}", s);
+// }
