@@ -19,8 +19,16 @@ fn main() {
     // // println!("s1: {}", s1);  // Error: value borrowed here after move
     // println!("s2: {}", s2);
 
-    let s1 = String::from("learn Rust");
-    let s2 = s1.clone();
-    println!("s1: {}, s2: {}", s1, s2);
+    // let s1 = String::from("learn Rust");
+    // let s2 = s1.clone();
+    // println!("s1: {}, s2: {}", s1, s2);
+
+    let s1 = String::from("Learn Rust is fun!");
+    print_string(&s1);
+    println!("s1 is: {}", s1);
     
+}
+
+fn print_string(s: &String) {
+    println!("Reading: {}", s);
 }
