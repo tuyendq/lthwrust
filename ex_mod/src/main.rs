@@ -7,10 +7,15 @@ fn main() {
 mod greetings {
     pub fn hello() {
         println!("Hello, public modules!");
+        good_morning();
     }
 
     #[allow(dead_code)]
     fn goodbye() {
         println!("Goodbye, private modules!");
+    }
+
+    fn good_morning() {
+        println!("Good morning, private modules!");
     }
 }
