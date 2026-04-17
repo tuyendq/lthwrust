@@ -24,3 +24,23 @@ mod greetings {
         println!("Good night, private modules!");
     }
 }
+
+mod computer {
+
+    mod hardware {
+    
+        mod processor {
+            fn get_status() {
+                println!("CPU: 100%");
+            }
+        }
+    }
+
+    mod software {
+
+    }
+
+    fn self_test() {
+        println!("Power On Self Test...");
+    }
+}
