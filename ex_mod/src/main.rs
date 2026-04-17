@@ -8,6 +8,7 @@ mod greetings {
     pub fn hello() {
         println!("Hello, public modules!");
         good_morning();
+        _good_night();
     }
 
     #[allow(dead_code)]
