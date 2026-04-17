@@ -18,4 +18,8 @@ mod greetings {
     fn good_morning() {
         println!("Good morning, private modules!");
     }
+
+    fn _good_night() {
+        println!("Good night, private modules!");
+    }
 }
