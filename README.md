@@ -25,4 +25,13 @@ The Rust Programming Language[https://doc.rust-lang.org/book/title-page.html]
 - Fixed length
 
 
+## Exercise x: Tuple
 
+
+## Macro
+- println! macro: new line at the end
+- print! marco: no new line at the end
+- format! macro: returns a String
+
+## standard library
+- std::io: input and output
